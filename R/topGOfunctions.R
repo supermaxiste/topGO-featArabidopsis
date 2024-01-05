@@ -1,3 +1,4 @@
+
 #################### misc functions ####################
 ##
 ##
@@ -73,7 +74,7 @@ setMethod("printGenes",
 
             chip <- sub(".db$", "", chip)
 
-            LL.lib <- get(paste(chip, "ENTREZID", sep = ""))
+            LL.lib <- get(paste(chip, "ACCNUM", sep = ""))
             Sym.lib <- get(paste(chip, "SYMBOL", sep = ""))
             GNAME.lib <- get(paste(chip, "GENENAME", sep = ""))
 
